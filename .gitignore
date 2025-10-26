@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+
+# Database files (ไม่ควรเก็บข้อมูลลง Git)
+*.db
+*.sqlite3
+
+# Output from PyInstaller (ไฟล์ .exe ที่สร้างขึ้น)
+/dist/
+/build/
+*.spec
+
+# Temporary files (ถ้าคุณใช้วิธีที่ 2 ของ Plotly)
+temp_chart.png
